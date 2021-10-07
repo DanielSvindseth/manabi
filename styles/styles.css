@@ -113,13 +113,14 @@ body {
   z-index: 100;
   padding-left: 5px;
   padding-right: 5px;
-  display: grid;
-  grid-template-columns: 20px auto 20px;
-  grid-template-rows: 10px auto 10px; }
+  display: flex;
+  /*grid-template-columns: 20px auto 20px;
+  grid-template-rows: 10px auto 10px;*/
+  justify-content: center; }
 
 #main > .content {
-  grid-column: 2;
-  grid-row: 2;
+  /*grid-column: 2;
+  grid-row: 2;*/
 }
 
 .content {
