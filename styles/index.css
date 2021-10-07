@@ -1,0 +1,37 @@
+.card-red    { background: linear-gradient(to bottom, #c83030c0, #a02020c0); color: #ffffff; } .card-red > *    { color: #ffffff; }
+.card-yellow { background: linear-gradient(to bottom, #fac800c0, #c8a000c0); color: #000000; } .card-yellow > * { color: #000000; }
+.card-green  { background: linear-gradient(to bottom, #00c800c0, #00a000c0); color: #ffffff; } .card-green > *  { color: #ffffff; }
+.card-blue   { background: linear-gradient(to bottom, #0000c8c0, #0000a0c0); color: #ffffff; } .card-blue > *   { color: #ffffff; }
+.card-white  { background: linear-gradient(to bottom, #f3f3f3c0, #c8c8c8c0); color: #000000; } .card-white > *  { color: #000000; }
+.card-black  { background: linear-gradient(to bottom, #303030c0, #000000c0); color: #ffffff; } .card-black > *  { color: #ffffff; }
+.card-gray   { background: linear-gradient(to bottom, #909090c0, #606060c0); color: #ffffff; } .card-gray > *   { color: #ffffff; }
+
+.card {
+  /*background-color: #ffffff;*/
+  color: #000000;
+  border: solid 4px #00000000;
+  background-origin: border-box;
+  border-radius: 8px;
+  box-shadow: 0 1px 1px #0000007f;
+  font-size: 20px;
+  min-width: 60px;
+  min-height: 40px; }
+.card:hover {
+  filter: brightness(1.1);
+  border: 4px solid #90cc41; }
+.card:active {
+  filter: brightness(0.8); }
+.card:focus {
+  border: 4px solid #80bc31;
+}
+
+button {
+  border: 4px solid #00000000;
+  background-origin: border-box !important;
+}
+button:focus {
+  border: 4px solid #609c11;
+}
+button:hover {
+  border: 4px solid #90cc41;
+}

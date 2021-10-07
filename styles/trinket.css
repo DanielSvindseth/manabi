@@ -1,0 +1,9 @@
+@media screen and (min-width: 1131px) {
+  #main {
+    height: calc(100% - 85px); }
+}
+
+@media screen and (max-width: 1130px) {
+  #main {
+    height: calc(100% - 170px); }
+}
