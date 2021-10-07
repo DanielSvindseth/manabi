@@ -114,6 +114,7 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   display: flex;
+  flex-flow: column nowrap;
   /*grid-template-columns: 20px auto 20px;
   grid-template-rows: 10px auto 10px;*/
   justify-content: center; }
