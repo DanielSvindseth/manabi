@@ -1,11 +1,11 @@
 * {
- margin: 0;
- padding: 0;
- border: 0;
- outline: none;
- text-decoration: none;
- font-family: 'Average';
- color: white; }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Average';
+  color: white; }
 
 html {
   font-family: 'Average';
@@ -114,7 +114,7 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   /*grid-template-columns: 20px auto 20px;
   grid-template-rows: 10px auto 10px;*/
   justify-content: center; }
@@ -126,6 +126,12 @@ body {
 
 .content {
   display: block;
+  background-image: linear-gradient(to bottom, #303030c0, #000000c0);
+  border-radius: 4px;
+  margin: 4px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 button {
@@ -137,9 +143,30 @@ button {
   font-family: 'Average Sans';
   font-weight: bold; }
 
+.card > h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 60px; }
+
+.card > h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.card > h3 {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 0px;
+}
+.card > p {
+  text-align: center;
+}
+
 .card {
   height: 220px;
   width: 340px;
+  inline-size: 340px;
+  overflow-wrap: break-word;
   border-radius: 4px;
   background: linear-gradient(to bottom, #f3f3f3a0, #c8c8c8a0);
   display: block;
@@ -151,6 +178,25 @@ button {
 
 .card * {
   font-family: 'Average Sans'; }
+
+.turnable {
+}
+.card.card-white.turnable:hover {
+  background: linear-gradient(to bottom, #303030c0, #000000c0); }
+.card.card-white.turnable:hover > h2 {
+  color: white; }
+.card.card-white.turnable:hover > h3 {
+  color: white; }
+.card.card-white.turnable > p {
+  display: none; }
+.card.card-white.turnable:hover > p {
+  display: block;
+  color: white; }
+.card.card-white.turnable > h3 {
+  display: none; }
+.card.card-white.turnable:hover > h3 {
+  display: block;
+  color: white; }
 
 table, th, td {
   border: 1px solid white;
@@ -182,16 +228,32 @@ table, th, td {
 .card:active {
   filter: brightness(0.8); }
 .card:focus {
-  border: 4px solid #80bc31;
-}
+  border: 4px solid #80bc31; }
 
 button {
   border: 4px solid #00000000;
-  background-origin: border-box !important;
-}
+  background-origin: border-box !important; }
 button:focus {
-  border: 4px solid #609c11;
-}
+  border: 4px solid #609c11; }
 button:hover {
-  border: 4px solid #90cc41;
+  border: 4px solid #90cc41; }
+
+.slide {
+  width: calc(100% - 60px);
+  height: auto;
+  border-radius: 8px;
+  /*background: linear-gradient(to bottom, #f3f3f3a0, #c8c8c8a0);*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  margin: 4px;
+  padding: 10px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-family: 'Average Sans';
+}
+
+.slide > p {
+  font-size: 20px;
+  line-height: 1.5;
 }
