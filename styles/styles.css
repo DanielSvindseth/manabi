@@ -61,6 +61,7 @@ body {
   #main {
     padding-top: 85px; }
   iframe {
+    zoom: 1.5;
     height: calc(100% - 5px); }}
 
 @media screen and (max-width: 1130px) {
@@ -84,6 +85,7 @@ body {
     padding-top: 85px;
     padding-bottom: 85px; }
   iframe {
+    zoom: 1.5;
     height: calc(100% - 0px); }}
 
 
