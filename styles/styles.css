@@ -91,9 +91,16 @@ body {
   #main {
     padding-top: 85px;
     padding-bottom: 85px; }
-  iframe {
-    zoom: 1.5;
-    height: calc(100% - 0px); }}
+    #main_child{
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      overflow: hidden; }
+    iframe {
+      height: calc(67% - 5px);
+      width: calc(67% - 5px);
+      transform: scale(1.5);
+      transform-origin: 0 0; }}
 
 
 h1.logo-text {
