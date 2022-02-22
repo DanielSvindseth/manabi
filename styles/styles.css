@@ -87,8 +87,20 @@ body {
     height: calc(100% - 0px); }}
 
 
-.logo-text {
+h1.logo-text {
   font-size: 60px;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Average'; }
+
+h3.logo-text {
+  font-size: 40px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: white;
   font-family: 'Average'; }
 
