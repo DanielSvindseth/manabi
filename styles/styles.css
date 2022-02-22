@@ -60,9 +60,16 @@ body {
     flex-flow: row nowrap; }
   #main {
     padding-top: 85px; }
+  #main_child{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; }
   iframe {
-    zoom: 1.5;
-    height: calc(100% - 5px); }}
+    height: calc(67% - 5px);
+    width: calc(67% - 5px);
+    transform: scale(1.5);
+    transform-origin: 0 0; }}
 
 @media screen and (max-width: 1130px) {
   #header_2 {
