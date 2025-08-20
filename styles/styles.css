@@ -65,11 +65,11 @@ body {
     width: 100%;
     padding: 0;
     overflow: hidden; }
-  iframe {
+  /*iframe {
     height: calc(67% - 5px);
     width: calc(67% - 5px);
     transform: scale(1.5);
-    transform-origin: 0 0; }}
+    transform-origin: 0 0; }*/}
 
 @media screen and (max-width: 1130px) {
   #header_2 {
@@ -96,11 +96,11 @@ body {
       width: 100%;
       padding: 0;
       overflow: hidden; }
-    iframe {
+    /*iframe {
       height: calc(67% - 5px);
       width: calc(67% - 5px);
       transform: scale(1.5);
-      transform-origin: 0 0; }}
+      transform-origin: 0 0; }*/}
 
 
 h1.logo-text {
@@ -236,7 +236,7 @@ table, th, td {
 .card-yellow { background: linear-gradient(to bottom, #fac800c0, #c8a000c0); color: #000000; } .card-yellow > * { color: #000000; }
 .card-green  { background: linear-gradient(to bottom, #00c800c0, #00a000c0); color: #ffffff; } .card-green > *  { color: #ffffff; }
 .card-blue   { background: linear-gradient(to bottom, #0000c8c0, #0000a0c0); color: #ffffff; } .card-blue > *   { color: #ffffff; }
-.card-white  { background: linear-gradient(to bottom, #f3f3f3c0, #c8c8c8c0); color: #000000; } .card-white > *  { color: #000000; }
+.card-white  { background: linear-gradient(to bottom, #f3f3f3c0, #c8c8c8c0); color: #000000; } .card-white > *  { color: #000000; } .card-white > * > *  { color: #000000; }
 .card-black  { background: linear-gradient(to bottom, #303030c0, #000000c0); color: #ffffff; } .card-black > *  { color: #ffffff; }
 .card-gray   { background: linear-gradient(to bottom, #909090c0, #606060c0); color: #ffffff; } .card-gray > *   { color: #ffffff; }
 
