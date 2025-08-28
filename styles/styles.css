@@ -179,7 +179,7 @@ button {
 .card > h2 {
   text-align: center;
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .card > h3 {
   text-align: center;
@@ -206,6 +206,8 @@ button {
 
 .card * {
   font-family: 'Average Sans'; }
+
+.card-s { height: 110px; }
 
 .turnable {
 }
@@ -241,6 +243,7 @@ table, th, td {
 .card-white  { background: linear-gradient(to bottom, #f3f3f3c0, #c8c8c8c0); color: #000000; } .card-white > *  { color: #000000; } .card-white > * > *  { color: #000000; }
 .card-black  { background: linear-gradient(to bottom, #303030c0, #000000c0); color: #ffffff; } .card-black > *  { color: #ffffff; }
 .card-gray   { background: linear-gradient(to bottom, #909090c0, #606060c0); color: #ffffff; } .card-gray > *   { color: #ffffff; }
+.card-transparent { background: #00000000; color: #ffffffff; }
 
 .card {
   /*background-color: #ffffff;*/
@@ -275,7 +278,8 @@ button:hover {
   /*background: linear-gradient(to bottom, #f3f3f3a0, #c8c8c8a0);*/
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   margin: 4px;
   padding: 10px;
   backdrop-filter: blur(8px);
@@ -287,3 +291,19 @@ button:hover {
   font-size: 20px;
   line-height: 1.5;
 }
+
+.slide > div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide > div > p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.img-s { max-width: 25%; }
+.img-m { max-width: 50%; }
+.img-l { max-width: 75%; }
